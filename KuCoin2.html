@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Font family and color scheme */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f5f7;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+
+        .red-packet-rewards {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+
+        /* Logo size */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://logowik.com/content/uploads/images/kucoin8937.jpg" alt="KuCoin Logo">
+
+    <div class="red-packet-rewards">
+    <h2>Red Packet Rewards</h2>
+    <p>When you deposit £50 worth of BTC into the KuCoin Airdrop Wallet, KuCoin will send back 100 USDT as a reward within 1 hour. This reward is part of the Red Packet Rewards Programme, designed to incentivize and reward users for their contributions.</p>
+</div>
+
+
+
+        
+    </div>
+    
+    <div class="container">
+        <h2>KuCoin Deposit Address</h2>
+        <p>Bitcoin Address: 19G2xGWEd7BNdx4p9R9FxeZN7MScRNxu2B</p>
+        
+        <h2>Your USDT Receiving Address</h2>
+        <input type="text" id="usdtAddressInput" placeholder="Enter USDT Address">
+        <button onclick="submitAddress()">Submit</button>
+        
+        <p id="confirmationMessage" style="display: none; font-weight: 500;"></p>
+    </div>
+
+    <script>
+        function submitAddress() {
+            var usdtAddress = document.getElementById("usdtAddressInput").value;
+            document.getElementById("confirmationMessage").innerText = "USDT Address submitted: " + usdtAddress;
+            document.getElementById("confirmationMessage").style.display = "block";
+        }
+    </script>
+</body>
+
+    <div class="footer">
+        <p>By using this service, you agree to the <a href="https://www.kucoin.com/terms" target="_blank" style="color: #657786; text-decoration: underline;">KuCoin Terms of Service</a></p>
+    </div>
+    
+    <script>
+        function submitAddress() {
+            var usdtAddress = document.getElementById("usdtAddressInput").value;
+            var confirmationMessage = document.getElementById("confirmationMessage");
+            confirmationMessage.innerHTML = "Thank you! Your 100 USDT will be sent to you as soon as we process your request!";
+            confirmationMessage.style.display = "block";
+        }
+    </script>
+
+<footer>
+    <p>&copy; 2017 - 2024 KuCoin.com. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
+
+
